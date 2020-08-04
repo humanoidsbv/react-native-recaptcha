@@ -12,7 +12,7 @@ Below you will find the original README with updated code snippets.
 
 # @haskkor/react-native-recaptchav3
 
-[![npm](https://img.shields.io/npm/v/@haskkor/react-native-recaptchav3.svg)](https://www.npmjs.com/package/@haskkor/react-native-recaptchav3) [![npm](https://img.shields.io/npm/dt/@haskkor/react-native-recaptchav3.svg)](https://www.npmjs.com/package/@haskkor/react-native-recaptchav3)
+[![npm](https://img.shields.io/npm/v/@humanoids/react-native-recaptcha.svg)](https://www.npmjs.com/package/@humanoids/react-native-recaptcha) [![npm](https://img.shields.io/npm/dt/@humanoids/react-native-recaptcha.svg)](https://www.npmjs.com/package/@humanoids/react-native-recaptcha)
 
 _React native component to use the invisible reCAPTCHA v3 from Google_
 
