@@ -10,7 +10,7 @@ Also, `originWhitelist` needed to be specified. Fixes for these two issues have 
 
 Below you will find the original README with updated code snippets.
 
-# @haskkor/react-native-recaptchav3
+# react-native-recaptcha
 
 [![npm](https://img.shields.io/npm/v/@humanoids/react-native-recaptcha.svg)](https://www.npmjs.com/package/@humanoids/react-native-recaptcha) [![npm](https://img.shields.io/npm/dt/@humanoids/react-native-recaptcha.svg)](https://www.npmjs.com/package/@humanoids/react-native-recaptcha)
 
