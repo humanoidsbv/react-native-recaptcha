@@ -8,11 +8,11 @@ Error evaluating injectedJavaScript: This is possibly due to an unsupported retu
 
 Also, `originWhitelist` needed to be specified. Fixes for these two issues have been applied.
 
-Below you will find the original README.
+Below you will find the original README with updated code snippets.
 
-# react-native-recaptchav3
+# react-native-recaptcha
 
-[![npm](https://img.shields.io/npm/v/@haskkor/react-native-recaptchav3.svg)](https://www.npmjs.com/package/@haskkor/react-native-recaptchav3) [![npm](https://img.shields.io/npm/dt/@haskkor/react-native-recaptchav3.svg)](https://www.npmjs.com/package/@haskkor/react-native-recaptchav3)
+[![npm](https://img.shields.io/npm/v/@humanoids/react-native-recaptcha.svg)](https://www.npmjs.com/package/@humanoids/react-native-recaptcha) [![npm](https://img.shields.io/npm/dt/@humanoids/react-native-recaptcha.svg)](https://www.npmjs.com/package/@humanoids/react-native-recaptcha)
 
 _React native component to use the invisible reCAPTCHA v3 from Google_
 
@@ -21,13 +21,13 @@ https://www.google.com/recaptcha/intro/v3.html
 ## Installation
 
 ```
-npm install --save @haskkor/react-native-recaptchav3
+npm install --save @humanoids/react-native-recaptcha
 ```
 
 or
 
 ```
-yarn add @haskkor/react-native-recaptchav3
+yarn add @humanoids/react-native-recaptcha
 ```
 
 **Note:** React Native Community Webview requires you to link the native dependencies (https://github.com/react-native-community/react-native-webview/blob/master/docs/Getting-Started.md)
@@ -41,7 +41,7 @@ yarn add @haskkor/react-native-recaptchav3
 Automatically get a captcha token:
 
 ```
-import ReCaptchaV3 from '@haskkor/react-native-recaptchav3'
+import ReCaptchaV3 from '@humanoids/react-native-recaptcha'
 
 <ReCaptchaV3
   captchaDomain={'https://yourowndomainname.co.nz'}
@@ -52,7 +52,7 @@ import ReCaptchaV3 from '@haskkor/react-native-recaptchav3'
 One could also use a trigger to request a new token using the reference of the component:
 
 ```
-import ReCaptchaV3 from '@haskkor/react-native-recaptchav3'
+import ReCaptchaV3 from '@humanoids/react-native-recaptcha'
 
 <ReCaptchaV3
   ref={(ref: RecaptchaV3) => this._captchaRef = ref}
@@ -73,10 +73,10 @@ import ReCaptchaV3 from '@haskkor/react-native-recaptchav3'
 | **`onReceiveToken`** | The callback used to get the captcha token from the component | `None`  | `true`   | `(captchaToken: string) => void` |
 | **`siteKey`**        | The site key provided by Google reCAPTCHA                     | `None`  | `true`   | `string`                         |
 
-## [Changelog](https://github.com/Haskkor/react-native-recaptchav3/blob/master/CHANGELOG.md)
+## [Changelog](https://github.com/humanoidsbv/react-native-recaptcha/blob/master/CHANGELOG.md)
 
 ## Contributing
 
 Pull requests are welcome.
 
-## [License](https://github.com/Haskkor/react-native-recaptchav3/blob/master/LICENSE)
+## [License](https://github.com/humanoidsbv/react-native-recaptcha/blob/master/LICENSE)
